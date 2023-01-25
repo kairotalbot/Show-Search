@@ -1,0 +1,140 @@
+body{
+  margin: 0px;
+  padding: 0px;
+  background-color: #7D8CC4;
+
+}
+
+.showtitle{
+  font-size:60px;
+  color: #d8daff;
+  text-align: center;
+  text-shadow: 2px 2px 4px #000000;
+  text-decoration: underline;
+}
+
+
+#lightbox {
+  position:fixed;
+  top:0px;
+  left:0px;
+  width:100%;
+  height:100%;
+  background-color:rgba(0,0,0,0.9); 
+  display:none;
+  
+}
+
+#message {
+    width:80%;
+    padding:20px;
+    background-color:#232a59;
+    text-align:center;
+    color: #d8daff;
+    font-family: 'EB Garamond', serif;
+    
+    /* Center the message in the lightbox */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#title{
+  text-align: center;
+  font-size: 80px;
+  color: #726DA8;
+  background-color: #A0D2DB;
+  margin-top: 0px;
+}
+
+#search{
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  font-size: 30px;
+  border-radius: 25px;
+  border: 3px solid #49baf2;
+  padding-left:16px;
+}
+
+
+#button{
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 40px;
+  font-size: 35px;
+  border-radius: 25px;
+  color: #726DA8;
+  border: 3px solid #A0D2DB;
+  cursor:grab;
+  transition-duration: 0.4s;
+} 
+
+#button:hover {
+  background-color: #726DA8;
+  color: white;
+
+}
+
+
+
+
+
+.showBox{
+  background-color: #111f40;
+  color: #82a8ff;
+  margin:10px;
+  padding: 10px;
+  font-size: 20px;
+}
+
+.showBox a{
+  color: #58a5c7;
+  text-decoration: none;
+  font-size: 20px;
+  text-shadow: 2px 2px 4px #1d73d6;
+  font-family: 'Noto Serif Display', serif;
+}
+
+img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 200px;
+}
+
+
+.subtitle{
+  text-align: center;
+  font-size: 25px;
+  
+}
+
+.genreBox{
+  text-align: center;
+  margin: auto;
+  text-decoration: none;
+} 
+.genreBox li{
+  list-style-type: none;
+} 
+
+.ratingBox{
+  text-align: center;
+  font-size: 40px;
+}
+
+.episodesListBox{
+  width:200px;
+  position:relative;
+  left: 50%;
+  transform: translate(-50%, 0px);
+}
+
+
+
+
+
+
